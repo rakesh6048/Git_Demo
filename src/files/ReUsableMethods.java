@@ -10,4 +10,10 @@ public class ReUsableMethods {
 		JsonPath js1 =new JsonPath(response);
 		return js1;
 	}
+	
+	public static JsonPath rawToJson101(String response)           
+	{                                                           
+		JsonPath js1 =new JsonPath(response);                   
+		return js1;                                             
+	}                                                           
 }

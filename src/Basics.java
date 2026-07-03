@@ -52,6 +52,7 @@ public class Basics {
 	JsonPath js1=ReUsableMethods.rawToJson(getPlaceResponse);
 	String actualAddress =js1.getString("address");
 	System.out.println(actualAddress);
+	System.out.println(actualAddress);
 	Assert.assertEquals(actualAddress, "Pacific ocean");
 	//Cucumber Junit, Testng
 	

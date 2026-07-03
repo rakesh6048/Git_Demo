@@ -1,6 +1,6 @@
 package files;
 
-public class payload {
+public class payload_copy {
 
 	
 	public static String AddPlace()
